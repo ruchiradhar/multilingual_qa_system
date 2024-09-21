@@ -1,0 +1,29 @@
+MPS (Apple GPU) is available.
+The length of train set is 15326
+The length of val set is 3028
+Number of columns: 7
+Columns: ['question', 'context', 'lang', 'answerable', 'answer_start', 'answer', 'answer_inlang']
+Number of columns: 7
+Columns: ['question', 'context', 'lang', 'answerable', 'answer_start', 'answer', 'answer_inlang']
+The languages in dataset are: ['bn' 'ja' 'ko' 'ru' 'fi' ' ar' 'te']
+The len of bn is 2591
+The len of ja is 2301
+The len of ko is 2412
+The len of ru is 1983
+The len of fi is 2126
+The len of  ar is 2558
+The len of te is 1355
+The most common words in bn are [('হয়', 464), ('কত', 390), ('শহর', 55), ('বছর', 45), ('ও', 34)]
+The most common words in ja are [('トム', 1), ('オブ', 1), ('デューティ', 1), ('security', 1), ('combat', 1)]
+The most common words in ko are [('가장', 523), ('무엇인가', 493), ('언제', 333), ('몇', 234), ('어디인가', 228)]
+The most common words in ru are [('в', 980), ('сколько', 426), ('на', 386), ('когда', 251), ('кто', 212)]
+The most common words in fi are [('on', 642), ('mikä', 327), ('milloin', 287), ('vuonna', 227), ('kuka', 215)]
+The most common words in  ar are [('في', 529), ('هو', 349), ('هي', 268), ('عدد', 161), ('أول', 157)]
+The most common words in te are [('ఏ', 142), ('గల', 21), ('ఒక', 8), ('జనగణన', 7), ('తన', 6)]
+/Users/ruchira/miniforge3/envs/aienv/lib/python3.10/site-packages/transformers/models/marian/tokenization_marian.py:175: UserWarning: Recommended: pip install sacremoses.
+  warnings.warn("Recommended: pip install sacremoses.")
+/Users/ruchira/miniforge3/envs/aienv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Accuracy for  ja is 54.824561403508774
+Accuracy for  ru is 60.1010101010101
+Accuracy for  fi is 53.78787878787878
